@@ -9,11 +9,14 @@ body {
     flex-direction: column;
     margin: auto;
     gap: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
     text-align: center;
     margin-top: 20px;
+    color: rgb(67, 10, 182);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .choices {
@@ -22,7 +25,7 @@ h1 {
     align-items: center;
     margin-top: 23px;
     height: 20vh;
-    gap: 45px;
+    gap: 35px;
 
 }
 
@@ -30,7 +33,7 @@ h1 {
     height: 123px;
     width: 134px;
     border: none;
-    border-radius: 90px;
+    border-radius: 100%;
 
 }
 
@@ -93,17 +96,19 @@ h1 {
 
 #reset:hover {
     box-shadow: 0 0 45px rgb(233, 163, 77);
-    
+
 }
-#result{
-    font-size:1.3rem ;
+
+#result {
+    font-size: 1.3rem;
     color: rgb(194, 55, 233);
     font-weight: 600;
     text-align: center;
 
 }
-#details{
-     font-size:1.3rem ;
+
+#details {
+    font-size: 1.3rem;
     color: rgb(194, 55, 233);
     font-weight: 600;
     text-align: center;
